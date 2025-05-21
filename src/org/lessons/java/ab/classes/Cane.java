@@ -1,7 +1,8 @@
 package org.lessons.java.ab.classes;
 
 public class Cane extends Animali {
-    private void 
+    private String race;
+    
 
     public Cane(String nome, void dormi, void verso, void mangia,){
         super("Zzz", nome);

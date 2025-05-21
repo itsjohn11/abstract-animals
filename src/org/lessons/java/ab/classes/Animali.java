@@ -2,12 +2,15 @@ package org.lessons.java.ab.classes;
 
 public abstract class Animali {
     
-    private String nome;
-    private void genere;
+    public abstract void dormi(){
 
-    public Animnali(String nome, void verso){
-        this.nome = nome;
-        this.verso = verso;
+    }
+    private String specie;
+    private String classeanomale;
+
+    public Animnali(String specie, String classeanimale){
+        this.species = species;
+        this.classeanimale = classeanimale;
     }
     
     public String getNome(){
